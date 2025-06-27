@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2 id="username">Your Name is: </h2>
+    <h2 id="sum">Sum is: </h2>
+
+    <script>
+        console.log("Hello Wolrd");
+
+        let num1=prompt("Enter a num");
+        let num2=prompt("Enter a num");
+        let result=num1 + num2;
+        console.log(result);
+        document.getElementById("sum").innerHTML += " " +result;
+
+        let name=prompt("Enter Your Name: ");
+        document.getElementById("username").innerHTML += name;
+        
+
+    </script>
+</body>
+</html>
