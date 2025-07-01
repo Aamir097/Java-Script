@@ -11,3 +11,4 @@ avg>=35
                     ?console.log("C Grade")
                     :console.log("Pass Class")
                 :alert("Wrong Input")
+                
