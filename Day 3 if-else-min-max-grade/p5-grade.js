@@ -7,8 +7,8 @@ let total=sub1+sub2+sub3;
 let percentage=(total/300) * 100;
 
 
-console.log(`Studemt Name is : ${name}`);
-console.log(`Roll No is : ${rollno}`);
+console.log(`Studemt Name  : ${name}`);
+console.log(`Roll No  : ${rollno}`);
 console.log(`English : ${sub1}`);
 console.log(`Maths : ${sub2}`);
 console.log(`Gujarati : ${sub3}`);
